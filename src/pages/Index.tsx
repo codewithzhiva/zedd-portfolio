@@ -1,12 +1,43 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useEffect } from "react";
+import { NavBar } from "@/components/NavBar";
+import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
+import { TechStack } from "@/components/TechStack";
+import { Projects } from "@/components/Projects";
+import { Experience } from "@/components/Experience";
+import { Contact } from "@/components/Contact";
+import { Blog } from "@/components/Blog";
+import { Footer } from "@/components/Footer";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "Shiva | Full Stack Engineer";
+    
+    // Set dark mode as the default
+    const root = window.document.documentElement;
+    if (!root.classList.contains("dark") && !root.classList.contains("light")) {
+      root.classList.add("dark");
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <ThemeToggle />
+      <NavBar />
+      
+      <main>
+        <Hero />
+        <About />
+        <TechStack />
+        <Projects />
+        <Experience />
+        <Contact />
+        <Blog />
+      </main>
+      
+      <Footer />
     </div>
   );
 };
