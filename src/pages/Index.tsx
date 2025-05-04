@@ -9,7 +9,6 @@ import { Experience } from "@/components/Experience";
 import { Contact } from "@/components/Contact";
 import { Blog } from "@/components/Blog";
 import { Footer } from "@/components/Footer";
-import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Index = () => {
   useEffect(() => {
@@ -24,7 +23,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <ThemeToggle />
       <NavBar />
       
       <main>

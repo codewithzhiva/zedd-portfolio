@@ -67,21 +67,22 @@ export const NavBar = () => {
               {item.label}
             </ScrollLink>
           ))}
+          <div className="ml-4">
+            <ThemeToggle />
+          </div>
         </div>
 
-        {/* Mobile Menu Button */}
-        <div className="md:hidden flex items-center">
+        {/* Mobile Menu Button and Theme Toggle */}
+        <div className="md:hidden flex items-center space-x-2">
+          <ThemeToggle />
           <Button
             variant="ghost"
             size="icon"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="mr-2"
           >
             <Menu className="h-5 w-5" />
           </Button>
         </div>
-
-        {/* Theme Toggle (outside mobile menu to be always accessible) */}
       </div>
 
       {/* Mobile Menu */}
