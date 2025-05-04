@@ -35,7 +35,7 @@ export const About = () => {
               </p>
               
               <div className="pt-4">
-                <a href="/resume-shiva-roopan.png" download="Shiva_Roopan_Resume.png" className="retro-button">
+                <a href="/lovable-uploads/82298a78-4df8-4b36-90ef-ee69421c6feb.png" download="Shiva_Roopan_Resume.png" className="retro-button">
                   Download Resume
                 </a>
               </div>
