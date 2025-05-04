@@ -23,6 +23,7 @@ export const Hero = () => {
             <div className="font-mono text-sm text-retro-cyan mt-2">
               &lt;/div&gt;
             </div>
+          </div>
           
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground font-light max-w-2xl">
             Turning ideas into scalable web applications.
