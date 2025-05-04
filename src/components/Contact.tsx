@@ -103,7 +103,7 @@ export const Contact = () => {
                 
                 <div className="space-y-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/shivaroopan" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
@@ -113,7 +113,7 @@ export const Contact = () => {
                   </a>
                   
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/shiva-roopan-b8a94b145/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
@@ -123,11 +123,11 @@ export const Contact = () => {
                   </a>
                   
                   <a 
-                    href="mailto:shiva@example.com"
+                    href="mailto:shivaruby46@gmail.com"
                     className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
                   >
                     <Mail className="h-5 w-5 group-hover:text-retro-green transition-colors" />
-                    <span>shiva@example.com</span>
+                    <span>shivaruby46@gmail.com</span>
                   </a>
                 </div>
               </div>
