@@ -19,7 +19,7 @@ export const About = () => {
               </p>
               
               <p className="leading-relaxed">
-                With 3+ years of experience in full-stack development, I specialize in building scalable web applications using the MERN stack and modern JavaScript frameworks. Currently working at Anko, I recently interviewed for an SDE-2 position at Nike.
+                With 4+ years of experience in full-stack development, I specialize in building scalable web applications using the MERN stack and modern JavaScript frameworks.
               </p>
               
               <p className="leading-relaxed">

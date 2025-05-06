@@ -15,7 +15,7 @@ export const Experience = () => {
     {
       company: "Anko",
       role: "Full Stack Engineer",
-      period: "2022 - Present",
+      period: "2021 - Present",
       description: [
         "Led the development of real-time notification system using WebSockets resulting in 30% improved user engagement",
         "Designed and implemented microservices architecture for scalable product catalog management system",
@@ -26,7 +26,7 @@ export const Experience = () => {
     {
       company: "Freelance",
       role: "Independent Developer",
-      period: "2020 - 2022",
+      period: "2020 - Forever",
       description: [
         "Built custom e-commerce solutions for small businesses using MongoDB, Express, React and Node.js",
         "Developed a content management system with advanced editing capabilities for a digital publication",

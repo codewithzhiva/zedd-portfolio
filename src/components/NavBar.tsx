@@ -51,7 +51,7 @@ export const NavBar = () => {
           duration={500}
           className="font-mono text-lg font-semibold cursor-pointer flex items-center"
         >
-          <span className="text-retro-green mr-1">&gt;</span> Shiva
+          <span className="text-retro-green mr-1">&gt;</span> Zhiva
         </ScrollLink>
 
         {/* Desktop Navigation */}

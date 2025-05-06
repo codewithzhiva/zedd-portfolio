@@ -42,7 +42,7 @@ export const Contact = () => {
             <div className="text-center mb-10">
               <h3 className="text-2xl mb-3">Get In Touch</h3>
               <p className="text-muted-foreground">
-                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you!
+                Whether you have a question or just want to say hi, Ping me and I'll get back to you!
               </p>
             </div>
             
