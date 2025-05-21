@@ -1,3 +1,4 @@
+// import profileImg from '../../public/assets/profile.jpeg';
 
 export const About = () => {
   return (
@@ -44,10 +45,11 @@ export const About = () => {
             <div className="relative">
               <div className="aspect-square w-full max-w-[300px] mx-auto border-2 border-retro-green p-1 rounded pixel-corners">
                 <div className="w-full h-full bg-gray-200 rounded flex items-center justify-center overflow-hidden">
-                  <div className="text-center text-gray-500">
-                    <div className="text-4xl mb-2 font-mono">{'{'} ... {'}'}</div>
-                    <div className="text-sm">Profile Image</div>
-                  </div>
+                  <img
+                    src="/assets/profile.jpeg"
+                    alt="Profile"
+                    className="object-cover w-full h-full rounded"
+                  />
                 </div>
               </div>
               
