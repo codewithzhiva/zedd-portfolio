@@ -13,9 +13,21 @@ export const Experience = () => {
   
   const experiences: Experience[] = [
     {
-      company: "Anko",
+      company: "Nike",
       role: "Full Stack Engineer",
-      period: "2021 - Present",
+      period: "2025 - Present",
+      description: [
+        "Implement robust frontend test automation using Cypress, ensuring quality and stability across multiple supplier-facing platforms.",
+        "AI/ML for Cost Optimization: Design and deploy AI/ML models to drive intelligent costing decisions and data-driven analysis in sourcing workflows.",
+        "Work on enterprise-grade systems used globally at Nike, contributing to systems that are reliable, performant, and aligned with business outcomes.",
+        "Collaborate with cross-functional teams to deliver high-quality software solutions, ensuring alignment with business goals and user needs.",
+        "Participate in code reviews, mentoring junior developers, and driving best practices in software development."
+      ]
+    },
+    {
+      company: "Anko",
+      role: "SDE -2",
+      period: "2021 - 2025",
       description: [
         "Led the development of real-time notification system using WebSockets resulting in 30% improved user engagement",
         "Designed and implemented microservices architecture for scalable product catalog management system",

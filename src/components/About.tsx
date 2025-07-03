@@ -1,5 +1,3 @@
-// import profileImg from '../../public/assets/profile.jpeg';
-
 export const About = () => {
   return (
     <section id="about" className="relative overflow-hidden">
