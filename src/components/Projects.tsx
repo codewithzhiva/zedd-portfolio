@@ -76,6 +76,15 @@ export const Projects = () => {
       links: {
         github: "https://github.com/codewithzhiva/durable-workflows",
       }
+    },
+    {
+      title: "Orchestra MCP",
+      description: "MCP server that exposes the entire local AI ecosystem as tools — plug self-hosted Orchestra, RAG Chat, LLM Gateway, and LLM Observatory directly into Claude Desktop or Cursor with a single config entry.",
+      image: "",
+      tags: ["TypeScript", "Node.js", "MCP", "Claude Desktop", "Cursor"],
+      links: {
+        github: "https://github.com/codewithzhiva/orchestra-mcp",
+      }
     }
   ];
 
