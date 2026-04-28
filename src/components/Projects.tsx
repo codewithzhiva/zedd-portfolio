@@ -15,41 +15,39 @@ interface Project {
 export const Projects = () => {
   const projects: Project[] = [
     {
-      title: "LanceX",
-      description: "A SaaS platform for freelancers to build and manage proposals, track projects, and generate invoices. Built with React, Node.js, MongoDB, and Stripe integration.",
+      title: "Orchestra API",
+      description: "Open-source multi-agent orchestration API. Define agent graphs as JSON, run them, and stream events over SSE. MCP-friendly Bearer auth — drop-in usable from a Claude skill or MCP server. Zero cloud dependencies, runs on a laptop.",
       image: "",
-      tags: ["React", "Node.js", "MongoDB", "Stripe", "AWS", "Redux"],
+      tags: ["TypeScript", "Fastify", "LangGraph.js", "Ollama", "BullMQ", "Redis", "SQLite"],
       links: {
-        github: "#",
-        live: "#"
+        github: "https://github.com/codewithzhiva/orchestra-api",
       }
     },
     {
-      title: "AI Tools for Content Creators",
-      description: "A suite of AI-powered tools for content creators including text summarization, hashtag generation, and image captioning using OpenAI API.",
+      title: "RAG Chat",
+      description: "Chat with your documents using local AI — 100% open source, zero cost. Retrieval-augmented generation pipeline with sub-80ms retrieval latency. Supports PDF, TXT, and Markdown ingestion with SSE streaming responses.",
       image: "",
-      tags: ["Next.js", "OpenAI API", "Tailwind CSS", "Prisma", "PostgreSQL"],
+      tags: ["TypeScript", "React", "Hono", "Qdrant", "Ollama", "Docker"],
       links: {
-        github: "#",
-        live: "#"
+        github: "https://github.com/codewithzhiva/rag-chat",
       }
     },
     {
-      title: "Real-time Chat Application",
-      description: "A scalable real-time chat application with private messaging, group chats, and file sharing capabilities using WebSockets.",
+      title: "Orchestra UI",
+      description: "Visual drag-and-drop agent graph builder for Orchestra API. Design LLM, HTTP, and Code node workflows on a canvas, save them, and watch them execute with live SSE node status updates in real time.",
       image: "",
-      tags: ["Socket.io", "Express", "MongoDB", "React", "Redis"],
+      tags: ["TypeScript", "React", "React Flow", "Tailwind CSS", "Vite"],
       links: {
-        github: "#",
+        github: "https://github.com/codewithzhiva/orchestra-ui",
       }
     },
     {
-      title: "E-commerce Microservices",
-      description: "A fully featured e-commerce platform built with a microservices architecture, event-driven design with Kafka.",
+      title: "LLM Evals",
+      description: "LLM-as-judge evaluation service for local AI stacks. Automatically scores RAG traces on faithfulness, relevance, and groundedness. Pulls from LLM Observatory, stores scores in SQLite, and serves live HTML reports.",
       image: "",
-      tags: ["Kafka", "Docker", "Kubernetes", "Node.js", "React", "MongoDB"],
+      tags: ["TypeScript", "Fastify", "SQLite", "LLM-as-Judge", "RAG"],
       links: {
-        github: "#",
+        github: "https://github.com/codewithzhiva/llm-evals",
       }
     }
   ];
