@@ -18,15 +18,15 @@ export const About = () => {
               </p>
               
               <p className="leading-relaxed">
-                With 4+ years of experience in full-stack development, I specialize in building scalable web applications using the MERN stack and modern JavaScript frameworks.
+                Full Stack Engineer with 4+ years of experience building scalable, high-performance backend systems and modern web applications. Deep expertise in Node.js, TypeScript, REST/GraphQL APIs, microservices architecture, and AWS cloud infrastructure.
               </p>
-              
+
               <p className="leading-relaxed">
-                My passion lies in building scalable SaaS applications and exploring AI implementations in web development. I thrive in collaborative environments where I can mentor junior developers while taking ownership of complex projects.
+                Proven track record at Nike and Anko delivering production-grade distributed systems with strong reliability, observability, and engineering discipline — from EKS cluster migrations to event-driven Kafka pipelines and serverless AWS deployments.
               </p>
-              
+
               <p className="leading-relaxed">
-                I'm driven by curiosity and continuously learning about emerging technologies and best practices in software engineering to deliver high-quality, maintainable code that solves real business problems.
+                Skilled in React for full-stack delivery, mentoring engineers, and translating complex product requirements into clean, maintainable solutions. Driven by curiosity and a commitment to engineering craft.
               </p>
               
               <p>

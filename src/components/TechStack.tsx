@@ -1,17 +1,20 @@
 
 export const TechStack = () => {
   const technologies = [
-    { name: "MongoDB", category: "Database" },
-    { name: "Express.js", category: "Backend" },
-    { name: "React.js", category: "Frontend" },
     { name: "Node.js", category: "Backend" },
     { name: "TypeScript", category: "Language" },
+    { name: "React.js", category: "Frontend" },
+    { name: "RTK Query", category: "Frontend" },
+    { name: "NestJS", category: "Backend" },
     { name: "AWS", category: "Cloud" },
     { name: "Docker", category: "DevOps" },
+    { name: "Terraform", category: "DevOps" },
+    { name: "NGINX", category: "DevOps" },
     { name: "Kafka", category: "Messaging" },
-    { name: "React Native", category: "Mobile" },
+    { name: "MongoDB", category: "Database" },
+    { name: "Aurora PostgreSQL", category: "Database" },
+    { name: "OpenSearch", category: "Database" },
     { name: "GraphQL", category: "API" },
-    { name: "Redis", category: "Cache" },
     { name: "Jest", category: "Testing" }
   ];
 

@@ -14,36 +14,45 @@ export const Experience = () => {
   const experiences: Experience[] = [
     {
       company: "Nike",
-      role: "Full Stack Engineer",
-      period: "2025 - Present",
+      role: "Software Engineer",
+      period: "Jul 2025 – Present",
       description: [
-        "Implement robust frontend test automation using Cypress, ensuring quality and stability across multiple supplier-facing platforms.",
-        "AI/ML for Cost Optimization: Design and deploy AI/ML models to drive intelligent costing decisions and data-driven analysis in sourcing workflows.",
-        "Work on enterprise-grade systems used globally at Nike, contributing to systems that are reliable, performant, and aligned with business outcomes.",
-        "Collaborate with cross-functional teams to deliver high-quality software solutions, ensuring alignment with business goals and user needs.",
-        "Participate in code reviews, mentoring junior developers, and driving best practices in software development."
+        "Led NGINX-to-ALB migration and EKS cluster upgrades, improving traffic routing reliability and reducing infrastructure operational overhead.",
+        "Implemented Aurora Serverless RDS and NodeGroup optimizations, improving database scalability and reducing compute costs for variable workloads.",
+        "Migrated OpenSearch to serverless architecture, eliminating cluster management overhead and improving search service resilience.",
+        "Designed and implemented a NestJS Quote Management backend with costsheet POST/PATCH APIs, schema versioning, and end-to-end Jenkins CI/CD pipelines.",
+        "Integrated automated vulnerability scanning tooling across services; identified and resolved high-risk security issues, strengthening overall platform security posture.",
+        "Set up Terraform + Jenkins + ASL infrastructure-as-code pipelines, enabling repeatable, auditable cloud deployments and reducing manual provisioning toil."
       ]
     },
     {
-      company: "Anko",
-      role: "SDE -2",
-      period: "2021 - 2025",
+      company: "Anko (SDE-II)",
+      role: "Software Engineer (SDE-II)",
+      period: "Oct 2023 – Jun 2025",
       description: [
-        "Led the development of real-time notification system using WebSockets resulting in 30% improved user engagement",
-        "Designed and implemented microservices architecture for scalable product catalog management system",
-        "Optimized frontend performance improving load times by 40% through code splitting and lazy loading",
-        "Mentored junior developers and conducted code reviews to maintain high quality standards"
+        "Architected and maintained Node.js microservices powering core business workflows, improving scalability and reducing service coupling.",
+        "Developed real-time React web applications using WebSockets and RTK Query, improving user experience across internal tools.",
+        "Integrated Microsoft Graph APIs to connect Microsoft 365 services into the application ecosystem.",
+        "Leveraged AWS services (Lambda, S3, EC2, SQS, SSM, Secrets Manager, ECS, Serverless) for cloud-native deployments and secure configuration management.",
+        "Processed high-volume event streams using Kafka, enabling reliable async communication between microservices."
       ]
     },
     {
-      company: "Freelance",
-      role: "Independent Developer",
-      period: "2020 - Forever",
+      company: "Anko (ASE)",
+      role: "Associate Software Engineer",
+      period: "Oct 2021 – Oct 2023",
       description: [
-        "Built custom e-commerce solutions for small businesses using MongoDB, Express, React and Node.js",
-        "Developed a content management system with advanced editing capabilities for a digital publication",
-        "Created a booking management system for a local tourism company including payment integration",
-        "Provided technical consulting for startups on technology stack selection and architecture design"
+        "Built RESTful APIs for microservice architecture using Node.js, enabling modular and independently deployable services.",
+        "Developed responsive UI components using React.js aligned to product specifications.",
+        "Managed and evolved MongoDB/DocumentDB schemas to support evolving business requirements while maintaining data integrity."
+      ]
+    },
+    {
+      company: "Verticurl",
+      role: "Associate Marketing Engineer",
+      period: "Dec 2020 – Sep 2021",
+      description: [
+        "Developed and executed digital marketing campaigns for multinational corporations, managing end-to-end workflow automation."
       ]
     }
   ];
