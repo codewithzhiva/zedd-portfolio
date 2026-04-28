@@ -49,6 +49,33 @@ export const Projects = () => {
       links: {
         github: "https://github.com/codewithzhiva/llm-evals",
       }
+    },
+    {
+      title: "LLM Gateway",
+      description: "Local LLM gateway — single OpenAI-compatible endpoint that routes, caches, rate-limits, and falls back across providers. Semantic cache via Qdrant cuts redundant LLM calls. Feeds telemetry into LLM Observatory.",
+      image: "",
+      tags: ["TypeScript", "Fastify", "Redis", "Qdrant", "SQLite", "NATS"],
+      links: {
+        github: "https://github.com/codewithzhiva/llm-gateway",
+      }
+    },
+    {
+      title: "LLM Observatory",
+      description: "Self-hosted LLM observability platform — traces, spans, costs, and analytics with zero vendor lock-in. Ingest via NATS JetStream, store in OpenSearch, visualise in Grafana and a custom React dashboard with span waterfalls and latency heatmaps.",
+      image: "",
+      tags: ["TypeScript", "Fastify", "OpenSearch", "NATS", "Grafana", "React"],
+      links: {
+        github: "https://github.com/codewithzhiva/llm-observatory",
+      }
+    },
+    {
+      title: "Durable Workflows",
+      description: "Durable workflow engine with DAG execution, retries with exponential backoff, idempotency keys, replay controls, and live SSE run events. Built to demonstrate senior-level distributed systems thinking without framework magic.",
+      image: "",
+      tags: ["Node.js", "JavaScript", "DAG", "SSE", "Distributed Systems"],
+      links: {
+        github: "https://github.com/codewithzhiva/durable-workflows",
+      }
     }
   ];
 
